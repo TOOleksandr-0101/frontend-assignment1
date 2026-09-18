@@ -88,3 +88,89 @@ img {
     padding: 10px;
     clear: both;
 }
+
+/* Task 4 - Table */
+
+#table-title {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight-row {
+    background-color: #d4edda !important;
+}
+
+/* Task 4 - Form */
+
+.form-box {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-box label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-box textarea {
+    height: 80px;
+}
+
+.radio-group {
+    margin-top: 5px;
+}
+
+#send-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #555;
+}
